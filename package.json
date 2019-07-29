@@ -1,0 +1,35 @@
+{
+  "name": "video-crawler",
+  "version": "1.0.0",
+  "description": "视频爬虫",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "debug": "^4.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "node server"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "xiao_min1990@hotmail.com",
+  "license": "MIT"
+}
